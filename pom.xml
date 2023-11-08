@@ -65,6 +65,18 @@
 			<version>8.0.28</version>
 		</dependency>
 
+		<distributionManagement>
+    <repository>
+        <id>nexus-releases</id> 
+        <url>http://35.154.210.53:8081/repository/maven-releases/</url> 
+    </repository>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://35.154.210.53:8081/repository/maven-snapshots/</url> 
+    </snapshotRepository>
+</distributionManagement>
+
+
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
